@@ -171,7 +171,7 @@ function LiveWithdrawalTicker() {
       </Box>
 
       <Text fontSize="xs" color="fg.subtle" mt="2" textAlign="center">
-        {WITHDRAWAL_FEED.length} Kenyans withdrew earnings today
+        {WITHDRAWAL_FEED.length} Many withdrew earnings today
       </Text>
     </Box>
   )
@@ -472,7 +472,7 @@ export default function DashboardPage() {
                     One package. Daily earnings.
                   </Heading>
                   <Text color="fg.muted" fontSize="sm" maxW="sm">
-                    Thousands of Kenyans are already earning from AI tasks every day. Activate your package and join them.
+                    Thousands are already earning from AI tasks every day. Activate your package and join them.
                   </Text>
                 </VStack>
                 <VStack align="start" gap="1.5" w="full">
