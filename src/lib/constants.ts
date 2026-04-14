@@ -13,13 +13,13 @@ export const STORAGE_KEYS = {
 }
 
 export const API_URLS = {
-  PACKAGES: "https://your-api.example.com/packages",
+  PACKAGES: "https://derekkemoi.github.io/Remo/packages.json",
   PAYMENT_CONFIG: "https://your-api.example.com/payment-config",
   INIT_PAYMENT: "https://wmvevoiuxwbskzqefzmd.supabase.co/functions/v1/init-payment",
   VERIFY_PAYMENT: "https://wmvevoiuxwbskzqefzmd.supabase.co/functions/v1/verify-payment",
 }
 
-export const MPESA_TILL_NAME = "FOOTBALL HIGHWAY ENTERPRISES"
+export const MPESA_TILL_NAME = "CV WRITTING GARAGE"
 export const TASKS_API_URL = "https://derekkemoi.github.io/Remo/tasks.json"
 
 export const ASSESSMENT_PASS_PERCENTAGE = 60

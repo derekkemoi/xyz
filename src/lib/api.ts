@@ -83,7 +83,7 @@ const DEFAULT_PACKAGES: Package[] = [
 ]
 
 const DEFAULT_PAYMENT_CONFIG: PaymentConfig = {
-  paymentMethod: "PAYSTACK",
+  paymentMethod: "M_PESA",
 }
 
 export const fetchPackages = async (): Promise<Package[]> => {
