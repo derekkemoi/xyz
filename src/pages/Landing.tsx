@@ -71,7 +71,7 @@ const BENEFITS = [
   },
   {
     icon: LuBanknote,
-    title: "Instant M-PESA",
+    title: "Instant Payouts",
     description: "Withdraw directly to your M-PESA or bank. No delays, no complicated forms.",
   },
   {
@@ -547,7 +547,7 @@ export default function LandingPage() {
           <Flex justify="center" gap="4" wrap="wrap">
             {[
               { icon: LuGift, text: "$10 Welcome Bonus" },
-              { icon: LuBanknote, text: "M-PESA Payouts" },
+              { icon: LuBanknote, text: "Instant Payouts" },
               { icon: LuShield, text: "Secure & Trusted" },
               { icon: LuClock, text: "Work Anytime" },
             ].map(({ icon: Ic, text }) => (
