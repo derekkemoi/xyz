@@ -93,8 +93,8 @@ export default function AssessmentPage() {
         }
       })
 
-      const score = Math.round((correct / total) * 100)
-      const passed = score >= ONBOARDING_ASSESSMENT.passPercentage
+      const score = correct
+      const passed = Math.round((correct / total) * 100) >= ONBOARDING_ASSESSMENT.passPercentage
 
       const result: AssessmentResult = {
         assessmentId: ONBOARDING_ASSESSMENT.id,

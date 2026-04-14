@@ -5,6 +5,7 @@ import { STORAGE_KEYS } from "@/lib/constants"
 import LandingPage from "@/pages/Landing"
 import LoginPage from "@/pages/Login"
 import SignupPage from "@/pages/Signup"
+import AssessmentWelcomePage from "@/pages/AssessmentWelcome"
 import AssessmentPage from "@/pages/Assessment"
 import AssessmentResultPage from "@/pages/AssessmentResult"
 import DashboardPage from "@/pages/Dashboard"
@@ -60,6 +61,14 @@ function App() {
         <Route path="/signup" element={<SignupPage />} />
         <Route
           path="/assessment"
+          element={
+            <ProtectedRoute>
+              <AssessmentWelcomePage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/assessment/start"
           element={
             <ProtectedRoute>
               <AssessmentPage />

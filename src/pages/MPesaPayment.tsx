@@ -25,9 +25,9 @@ import { useSubscriptionStore } from "@/store/subscription-store"
 import { usePaymentStore } from "@/store/payment-store"
 import { toaster } from "@/components/ui/toaster"
 import { formatCurrency, generateId } from "@/lib/formatters"
-import { MPESA_TILL_NAME, TILL_NUMBER } from "@/lib/constants"
+import { MPESA_TILL_NAME } from "@/lib/constants"
 
-
+const TILL_NUMBER = "7172200"
 
 const STEPS = [
   { number: "1", title: "Go to M-PESA on your phone", description: "Open the M-PESA menu on your Safaricom SIM" },

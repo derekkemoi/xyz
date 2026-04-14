@@ -7,14 +7,14 @@ import {
   Button,
   Badge,
   SimpleGrid,
-//   Separator,
+  Separator,
 } from "@chakra-ui/react"
 import { useNavigate } from "react-router-dom"
 import {
   LuLogOut,
   LuRefreshCw,
   LuCircleCheck,
-//   LuClock,
+  LuClock,
   LuShield,
   LuCalendar,
   LuListTodo,
@@ -57,9 +57,7 @@ export default function ProfilePage() {
       const parsed = JSON.parse(assessmentRaw)
       assessmentPassed = parsed.passed === true
       assessmentScore = parsed.score || 0
-    } catch {
-      // Ignore parsing errors
-    }
+    } catch { }
   }
 
   const totalEarned = earnings.reduce((sum, e) => sum + e.amount, 0)
@@ -233,7 +231,7 @@ export default function ProfilePage() {
               <LuLogOut />
               Sign Out
             </Button>
-            {/* <Button
+            <Button
               variant="ghost"
               justifyContent="start"
               size="lg"
@@ -244,7 +242,7 @@ export default function ProfilePage() {
             >
               <LuRefreshCw />
               Reset Demo Data
-            </Button> */}
+            </Button>
           </VStack>
         </Box>
 

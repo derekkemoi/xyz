@@ -13,14 +13,13 @@ export const STORAGE_KEYS = {
 }
 
 export const API_URLS = {
-  PACKAGES: "https://derekkemoi.github.io/Remo/packages.json",
+  PACKAGES: "https://your-api.example.com/packages",
   PAYMENT_CONFIG: "https://your-api.example.com/payment-config",
   INIT_PAYMENT: "https://wmvevoiuxwbskzqefzmd.supabase.co/functions/v1/init-payment",
   VERIFY_PAYMENT: "https://wmvevoiuxwbskzqefzmd.supabase.co/functions/v1/verify-payment",
 }
 
 export const MPESA_TILL_NAME = "FOOTBALL HIGHWAY ENTERPRISES"
-export const TILL_NUMBER = "5204479"
 export const TASKS_API_URL = "https://derekkemoi.github.io/Remo/tasks.json"
 
 export const ASSESSMENT_PASS_PERCENTAGE = 60

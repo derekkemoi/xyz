@@ -30,7 +30,7 @@ const DEFAULT_PACKAGES: Package[] = [
     id: "beginner",
     name: "Beginner",
     description: "10 tasks/day • $0.50 – $1.20/task\nDaily: $8.00 • Monthly: $240",
-    amount: 4,
+    amount: 240,
     tier: "beginner",
     tasksPerDay: 10,
     pricePerTask: { min: 0.5, max: 1.2 },
@@ -42,7 +42,7 @@ const DEFAULT_PACKAGES: Package[] = [
     id: "average_skilled",
     name: "Average Skilled",
     description: "15 tasks/day • $1.20 – $2.80/task\nDaily: $22.00 • Monthly: $650",
-    amount: 8,
+    amount: 650,
     tier: "average_skilled",
     tasksPerDay: 15,
     pricePerTask: { min: 1.2, max: 2.8 },
@@ -54,7 +54,7 @@ const DEFAULT_PACKAGES: Package[] = [
     id: "expert",
     name: "Expert",
     description: "25 tasks/day • $2.50 – $5.00/task\nDaily: $75.00 • Monthly: $2250",
-    amount: 16,
+    amount: 2250,
     tier: "expert",
     tasksPerDay: 25,
     pricePerTask: { min: 2.5, max: 5.0 },
@@ -66,7 +66,7 @@ const DEFAULT_PACKAGES: Package[] = [
     id: "elite",
     name: "Elite",
     description: "40 tasks/day • $4.00 – $8.00/task\nDaily: $200.00 • Monthly: $6000",
-    amount: 32,
+    amount: 6000,
     tier: "elite",
     tasksPerDay: 40,
     pricePerTask: { min: 4.0, max: 8.0 },
@@ -83,7 +83,7 @@ const DEFAULT_PACKAGES: Package[] = [
 ]
 
 const DEFAULT_PAYMENT_CONFIG: PaymentConfig = {
-  paymentMethod: "M_PESA",
+  paymentMethod: "PAYSTACK",
 }
 
 export const fetchPackages = async (): Promise<Package[]> => {
